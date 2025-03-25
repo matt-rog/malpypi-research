@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esqintencodecontrol.egg-info/PKG-INFO
+esqintencodecontrol.egg-info/SOURCES.txt
+esqintencodecontrol.egg-info/dependency_links.txt
+esqintencodecontrol.egg-info/top_level.txt

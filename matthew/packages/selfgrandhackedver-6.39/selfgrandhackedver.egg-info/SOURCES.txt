@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+selfgrandhackedver.egg-info/PKG-INFO
+selfgrandhackedver.egg-info/SOURCES.txt
+selfgrandhackedver.egg-info/dependency_links.txt
+selfgrandhackedver.egg-info/top_level.txt

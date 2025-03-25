@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ultrapyw.egg-info/PKG-INFO
+ultrapyw.egg-info/SOURCES.txt
+ultrapyw.egg-info/dependency_links.txt
+ultrapyw.egg-info/top_level.txt

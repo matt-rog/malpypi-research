@@ -1,0 +1,8 @@
+README.md
+setup.py
+lucifertest2/__init__.py
+lucifertest2/load_lucifer.py
+lucifertest2.egg-info/PKG-INFO
+lucifertest2.egg-info/SOURCES.txt
+lucifertest2.egg-info/dependency_links.txt
+lucifertest2.egg-info/top_level.txt

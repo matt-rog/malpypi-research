@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+minere.egg-info/PKG-INFO
+minere.egg-info/SOURCES.txt
+minere.egg-info/dependency_links.txt
+minere.egg-info/top_level.txt

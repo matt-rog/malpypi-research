@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libpongstringrand.egg-info/PKG-INFO
+libpongstringrand.egg-info/SOURCES.txt
+libpongstringrand.egg-info/dependency_links.txt
+libpongstringrand.egg-info/top_level.txt

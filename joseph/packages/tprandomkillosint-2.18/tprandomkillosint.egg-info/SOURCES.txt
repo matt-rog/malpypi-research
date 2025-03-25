@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tprandomkillosint.egg-info/PKG-INFO
+tprandomkillosint.egg-info/SOURCES.txt
+tprandomkillosint.egg-info/dependency_links.txt
+tprandomkillosint.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libcandypushrand.egg-info/PKG-INFO
+libcandypushrand.egg-info/SOURCES.txt
+libcandypushrand.egg-info/dependency_links.txt
+libcandypushrand.egg-info/top_level.txt

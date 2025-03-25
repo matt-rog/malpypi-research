@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esqadpostmine.egg-info/PKG-INFO
+esqadpostmine.egg-info/SOURCES.txt
+esqadpostmine.egg-info/dependency_links.txt
+esqadpostmine.egg-info/top_level.txt

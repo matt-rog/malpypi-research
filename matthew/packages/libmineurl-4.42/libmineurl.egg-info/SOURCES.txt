@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libmineurl.egg-info/PKG-INFO
+libmineurl.egg-info/SOURCES.txt
+libmineurl.egg-info/dependency_links.txt
+libmineurl.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esqgrandhttpreplace.egg-info/PKG-INFO
+esqgrandhttpreplace.egg-info/SOURCES.txt
+esqgrandhttpreplace.egg-info/dependency_links.txt
+esqgrandhttpreplace.egg-info/top_level.txt

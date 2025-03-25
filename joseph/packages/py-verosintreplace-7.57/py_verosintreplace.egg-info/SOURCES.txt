@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+py_verosintreplace.egg-info/PKG-INFO
+py_verosintreplace.egg-info/SOURCES.txt
+py_verosintreplace.egg-info/dependency_links.txt
+py_verosintreplace.egg-info/top_level.txt

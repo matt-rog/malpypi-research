@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libramhydralib.egg-info/PKG-INFO
+libramhydralib.egg-info/SOURCES.txt
+libramhydralib.egg-info/dependency_links.txt
+libramhydralib.egg-info/top_level.txt

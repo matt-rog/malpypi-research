@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tpintelcraft.egg-info/PKG-INFO
+tpintelcraft.egg-info/SOURCES.txt
+tpintelcraft.egg-info/dependency_links.txt
+tpintelcraft.egg-info/top_level.txt

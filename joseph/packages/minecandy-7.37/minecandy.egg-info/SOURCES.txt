@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+minecandy.egg-info/PKG-INFO
+minecandy.egg-info/SOURCES.txt
+minecandy.egg-info/dependency_links.txt
+minecandy.egg-info/top_level.txt

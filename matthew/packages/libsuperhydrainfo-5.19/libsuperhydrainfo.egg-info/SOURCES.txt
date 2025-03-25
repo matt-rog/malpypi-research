@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libsuperhydrainfo.egg-info/PKG-INFO
+libsuperhydrainfo.egg-info/SOURCES.txt
+libsuperhydrainfo.egg-info/dependency_links.txt
+libsuperhydrainfo.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esqlibad.egg-info/PKG-INFO
+esqlibad.egg-info/SOURCES.txt
+esqlibad.egg-info/dependency_links.txt
+esqlibad.egg-info/top_level.txt

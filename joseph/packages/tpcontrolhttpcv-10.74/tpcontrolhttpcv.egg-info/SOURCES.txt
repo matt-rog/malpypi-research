@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tpcontrolhttpcv.egg-info/PKG-INFO
+tpcontrolhttpcv.egg-info/SOURCES.txt
+tpcontrolhttpcv.egg-info/dependency_links.txt
+tpcontrolhttpcv.egg-info/top_level.txt

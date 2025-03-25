@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tppyproofpull.egg-info/PKG-INFO
+tppyproofpull.egg-info/SOURCES.txt
+tppyproofpull.egg-info/dependency_links.txt
+tppyproofpull.egg-info/top_level.txt

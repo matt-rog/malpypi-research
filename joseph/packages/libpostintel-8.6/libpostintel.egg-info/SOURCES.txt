@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libpostintel.egg-info/PKG-INFO
+libpostintel.egg-info/SOURCES.txt
+libpostintel.egg-info/dependency_links.txt
+libpostintel.egg-info/top_level.txt

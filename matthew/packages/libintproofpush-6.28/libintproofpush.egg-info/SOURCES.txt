@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libintproofpush.egg-info/PKG-INFO
+libintproofpush.egg-info/SOURCES.txt
+libintproofpush.egg-info/dependency_links.txt
+libintproofpush.egg-info/top_level.txt

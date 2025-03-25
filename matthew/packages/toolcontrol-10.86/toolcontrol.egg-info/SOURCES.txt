@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+toolcontrol.egg-info/PKG-INFO
+toolcontrol.egg-info/SOURCES.txt
+toolcontrol.egg-info/dependency_links.txt
+toolcontrol.egg-info/top_level.txt

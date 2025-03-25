@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tphttpvisa.egg-info/PKG-INFO
+tphttpvisa.egg-info/SOURCES.txt
+tphttpvisa.egg-info/dependency_links.txt
+tphttpvisa.egg-info/top_level.txt

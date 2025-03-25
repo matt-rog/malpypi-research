@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esqmaskcraftpull.egg-info/PKG-INFO
+esqmaskcraftpull.egg-info/SOURCES.txt
+esqmaskcraftpull.egg-info/dependency_links.txt
+esqmaskcraftpull.egg-info/top_level.txt

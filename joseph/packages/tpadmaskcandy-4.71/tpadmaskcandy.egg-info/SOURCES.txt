@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tpadmaskcandy.egg-info/PKG-INFO
+tpadmaskcandy.egg-info/SOURCES.txt
+tpadmaskcandy.egg-info/dependency_links.txt
+tpadmaskcandy.egg-info/top_level.txt
