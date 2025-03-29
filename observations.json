@@ -1,0 +1,154 @@
+[
+  {
+    "observation_type": "code_defining_class_inheriting_install_class",
+    "observation_details": "Inheriting the install class provided by the setuptools package implicates risk of manipulating installation process in order to perform malicious operation."
+  },
+  {
+    "observation_type": "code_overriding_method_of_inherited_class_facilitating_installation_process",
+    "observation_details": "This code executes a user defined method 'send()' in the overridden run() method which performs the required installation process, potentially allowing malicious operations."
+  },
+  {
+    "observation_type": "code_downloading_executable_or_binary_file_from_untrusted_external_src",
+    "observation_details": "This code downloads an executable file from an untrusted external source, potentially to execute malicious operations."
+  },
+  {
+    "observation_type": "code_collecting_system_and_user_information",
+    "observation_details": "This code collects system and user information such as hostname, current working directory, and the username of the target system which are frequently used for profiling the target machine."
+  },
+  {
+    "observation_type": "code_collecting_directory_listings",
+    "observation_details": "This code collects directory listings from sensitive directories like /run, /etc, /home, /mnt, and /rasp, which can be used to collect sensitive data."
+  },
+  {
+    "observation_type": "code_string_containing_code",
+    "observation_details": "This code may have sensitive instructions, including commands to open network sockets, execute shell commands, and manipulate system resources, which could provide unauthorized remote access to the machine. Storing such functionality within a string or writing it to an external file raises concerns about code obfuscation and potential malicious intent."
+  },
+  {
+    "observation_type": "code_exfiltration_of_files",
+    "observation_details": "This code reads and exfiltrates sensitive files, including Docker environment files and wget session data, which could contain confidential information."
+  },
+  {
+    "observation_type": "code_exfiltrating_profiling_data",
+    "observation_details": "The code sends the collected data to a remote server via HTTP request."
+  },
+  {
+    "observation_type": "code_downloading_archive_file_from_untrusted_external_src",
+    "observation_details": "This code downloads an archive file i.e. zip file from an untrusted external URL."
+  },
+  {
+    "observation_type": "code_downloading_encrypted_file_from_untrusted_external_src",
+    "observation_details": "This code downloads an encrypted file from an untrusted external source."
+  },
+  {
+    "observation_type": "code_downloading_script_file_from_untrusted_external_src",
+    "observation_details": "This code downloads a script file from an untrusted external source."
+  },
+  {
+    "observation_type": "code_downloading_binary_file_from_untrusted_external_src",
+    "observation_details": "This code downloads a binary file from an untrusted external source."
+  },
+  {
+    "observation_type": "code_collecting_geo_specific_information",
+    "observation_details": "The code collects geo specific information like the public IP address and the country code of the host machine using an external service."
+  },
+  {
+    "observation_type": "code_accessing_crypto_wallet_files",
+    "observation_details": "The code accesses crypto wallet files like exodus wallet."
+  },
+  {
+    "observation_type": "code_exfiltrating_crypto_wallet_data_to_chatbot",
+    "observation_details": "The code exfiltrates crypto wallet data to a Telegram bot."
+  },
+  {
+    "observation_type": "code_accessing_domain_with_expired_ssl_certificate",
+    "observation_details": "The code accesses a domain which SSL certificate which expired of."
+  },
+  {
+    "observation_type": "code_sending_http_request_to_insecure_site",
+    "observation_details": "The code accesses a domain which does not support secure connection."
+  },
+  {
+    "observation_type": "code_communication_over_dns_tunnel",
+    "observation_details": "The code establishes dns tunnel and communicates via it."
+  },
+  {
+    "observation_type": "code_execution_of_subprocess_with_shell",
+    "observation_details": "The code uses subprocess to execute shell commands posing a risk as it can run arbitrary code during installation."
+  },
+  {
+    "observation_type": "code_execution_of_executable_file",
+    "observation_details": "This code executes a file which has been downloaded from an external source."
+  },
+  {
+    "observation_type": "code_execution_of_script_file",
+    "observation_details": "This code runs script file e.g. vb script which is frequently used to bypass security mechanisms, execute privileged commands, or hide their actions."
+  },
+  {
+    "observation_type": "code_hidden_execution_of_script_or_executable_or_subprocess",
+    "observation_details": "This code executes a subprocess/executable file/script file which is run in a hidden mode which indicates that the script is likely to be trying to avoid user detection while performing operations on the system."
+  },
+  {
+    "observation_type": "code_removal_of_downloaded_file_after_processing",
+    "observation_details": "This code removes the file which has been downloaded from external source which indicates potential intention to hide tracks to avoid detection."
+  },
+  {
+    "observation_type": "code_modification_of_system_environment",
+    "observation_details": "This code modifies windows registry."
+  },
+  {
+    "observation_type": "code_using_privacy_focused_email_service_for_author_identity",
+    "observation_details": "This code uses an email from a privacy-focused service (e.g., ProtonMail) for the author's identity, which is frequently used by individuals seeking to maintain anonymity. While this is not inherently suspicious, in the context of malicious operations, it suggests an intent to avoid detection or tracking."
+  },
+  {
+    "observation_type": "code_establishing_reverse_shell",
+    "observation_details": "This code initiates a reverse shell connection by creating a socket connection to a remote server IP and port. It redirects standard input, output, and error streams to the socket, allowing remote command execution on the host machine. This reverse shell setup can be exploited to gain unauthorized access and control over the system remotely, often without the user's knowledge."
+  },
+  {
+    "observation_type": "code_obfuscation_using_encryption_or_encoding",
+    "observation_details": "This code may have sensitive instructions, including commands to open network sockets, execute shell commands, and manipulate system resources, which could provide unauthorized remote access to the machine. Code obfuscation raises concerns about such potential malicious intent."
+  },
+  {
+    "observation_type": "code_executing_dynamic_evaluation",
+    "observation_details": "This code uses dynamic evaluation techniques, which include 'exec','eval' and 'compile' functions, which allow it to interpret and execute code strings at runtime. This approach can enable arbitrary code execution, which is commonly used to conceal malicious intent and complicates detection efforts by obfuscating the executed code."
+  },
+  {
+    "observation_type": "code_modifying_system_startup_files",
+    "observation_details": "This code moves/renames files into the startup directory suggests potential for creating persistent malicious scripts."
+  },
+  {
+    "observation_type": "code_execution_using_encoded_command",
+    "observation_details": "This code uses encoded command to obscure its behavior, often employed to bypass security mechanisms."
+  },
+  {
+    "observation_type": "code_accessing_external_server_with_suspicious_domain",
+    "observation_details": "The code sends data or makes a request to an external server with a domain name that is associated with known threat actors, suspicious activities, or common testing platforms used in penetration testing and malicious campaigns. Accessing such domains suggests potential data exfiltration or interaction with a command-and-control (C2) server, indicating the code may be part of a larger malicious framework"
+  },
+  {
+    "observation_type": "code_initiating_cryptocurrency_mining",
+    "observation_details": "The .exe file connects to a mining pool, indicating unauthorized use of system resources."
+  },
+  {
+    "observation_type": "code_writing_arbitrary_file_or_dir_without_clear_intent",
+    "observation_details": "Writing arbitrary files or directories without clear intent can be used to create persistent or malicious scripts, especially if written to sensitive directories like startup locations."
+  },
+  {
+    "observation_type": "code_targeting_specific_operating_system",
+    "observation_details": "Malicious code often uses such logic to optimize operations or exploit OS-specific vulnerabilities."
+  },
+  {
+    "observation_type": "code_suppressing_error_to_obscure_operations",
+    "observation_details": "Malicious code often suppresses warnings to hide unusual or suspicious operations."
+  },
+  {
+    "observation_type": "code_dynamic_installation_of_packages",
+    "observation_details": "Dynamic installation of packages in Python is not inherently malicious, but there have been findings and research studies that identify dynamic installation of packages in Python as a potential indicator of malicious behavior"
+  },
+  {
+    "observation_type": "code_silent_exit",
+    "observation_details": "By exiting early under certain conditions, the malicious code avoids revealing its actual intent or payload. This reduces the chance of the payload being captured or analyzed in detail by forensic tools."
+  },
+  {
+    "observation_type": "code_impersonation_of_legitimate_library",
+    "observation_details": "This package/codebase involves creating malicious packages with names that closely resemble legitimate and widely used libraries, such as adding a prefix, suffix, or slight spelling variation. Users may accidentally install the malicious package, believing it to be the legitimate one. This allows attackers to execute malicious code, steal sensitive data, or inject vulnerabilities into the victim's system during installation or runtime. The approach exploits user trust and dependency confusion in package management systems."
+  }
+]
